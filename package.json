@@ -1,0 +1,14 @@
+{
+  "name": "clinic-queue-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digital clinic tokens and queue tracking (React + Express + MongoDB)",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "start": "node scripts/start.js",
+    "build": "npm --prefix frontend run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
